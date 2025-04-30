@@ -1,5 +1,5 @@
 header {
-   
+
     border: 3px solid black;
     display: flex;
     align-items: center;
@@ -13,8 +13,6 @@ header {
     justify-content: space-evenly;
     align-items: flex-start;
     background-color: blue
-
-
 }
 
 img {
@@ -24,24 +22,25 @@ img {
 
 }
 
-.titre{
-   display: flex;
-   justify-content: center;
-   justify-items: center;
-   border: 3px solid black; 
-   width: 60%;
-   background-color: lab(#00355F)
+.titre {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border: 3px solid black;
+    width: 60%;
+    background-color: lab(#00355F)
 }
 
 
-.adresse1{
+.adresse1 {
     display: flex;
     justify-content: center;
     justify-items: right;
-    border: 3px solid black; 
+    border: 3px solid black;
     width: 100%;
 }
-.catégorie{
+
+.catégorie {
     display: flex;
     justify-content: space-around;
     border: 2px solid black;
@@ -49,16 +48,39 @@ img {
 
 
 
-.parent{
+.parent {
+
+    border: 2px solid black;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    img {
-        width : 500px;
-        height : 500px;
-        }
+        justify-content: space-between;
+    gap: 2rem 2rem;
+    width: 100%;
+    text-align: center;
+    
+    
+
+}
+
+.parents>img 
+h3 {
+    text-align: center;
+}
+
+.bouton {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.produits {
+    width: 25%;
+    border: 2px solid black;
+ 
 }
 .raquettes{
-    display: flex;
-    flex-direction: column;
+    border: 2px solid red;
+    width: 33%;
+    margin: 0 auto;
 }
