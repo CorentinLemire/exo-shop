@@ -1,16 +1,19 @@
 header {
+    color: white;
 
-    border: 8px solid black;
-    background-color: #E4D894;
+    /* border: 8px solid black; */
+    background-color: #00355F;
     display: flex;
     align-items: center;
-    font color: ;
+    padding: 20px;
+
 
 }
 
 
 
 .nav {
+
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
@@ -25,10 +28,11 @@ img {
 }
 
 .titre {
+    padding: 20px;
     display: flex;
     justify-content: center;
     justify-items: center;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     width: 100%;
     background-color: #00355F
 }
@@ -38,7 +42,7 @@ img {
     display: flex;
     justify-content: center;
     justify-items: right;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     width: 100%;
 
 }
@@ -46,16 +50,18 @@ img {
 .catégorie {
     display: flex;
     justify-content: space-around;
-    border: 2px solid rgb(107, 3, 3);
-    background-color: coral;
+    /* border: 2px solid rgb(107, 3, 3); */
+    background-color: #00355F;
     font-size: large;
+    color: white;
 }
 
 
 
 .parent {
-
-    border: 2px solid black;
+    padding: 20px;
+    color: white;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -63,6 +69,7 @@ img {
     gap: 2rem 2rem;
     width: 100%;
     text-align: center;
+    font-size: 20px;
 
 
 
@@ -70,7 +77,7 @@ img {
 
 .parents>img h3 {
     text-align: center;
-    background-color: #E4D894;
+    background-color: #00355F;
 
 }
 
@@ -82,14 +89,14 @@ img {
 
 .produits {
     width: 25%;
-    border: 2px solid black;
-    background-color: #E4D894;
+    /* border: 2px solid black; */
+    background-color: #00355F;
 
 
 }
 
 .raquettes {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 33%;
     height: 200px;
     margin: 0 auto;
@@ -97,7 +104,7 @@ img {
 
 
 .Adresse2 {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     font-size: large;
     margin-top: 3rem;
 }
@@ -106,12 +113,14 @@ img {
 
     display: flex;
     justify-content: center;
-    background-color: #E4D894;
+    background-color: #00355F;
+    color: white;
 }
 
 .CGU {
     text-align: center;
-    background-color: #E4D894;
+    background-color: #00355F;
+    color: white;
 }
 
 .icons {
